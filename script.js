@@ -4,18 +4,18 @@ function refresh(id) {
 }
 
 let sources = [
-    "https://corp2.rennacs.com:10005/cgi-bin/sp.cgi?chn=0&u=admin&p=rufnmnzq",
-    "https://corp2.rennacs.com:10005/cgi-bin/sp.cgi?chn=1&u=admin&p=rufnmnzq",
-    "https://corp2.rennacs.com:10005/cgi-bin/sp.cgi?chn=2&u=admin&p=rufnmnzq",
-    "https://corp2.rennacs.com:10005/cgi-bin/sp.cgi?chn=3&u=admin&p=rufnmnzq",
-    "https://corp2.rennacs.com:10006/cgi-bin/sp.cgi?chn=0&u=admin&p=rufnmnzq",
-    "https://corp2.rennacs.com:10006/cgi-bin/sp.cgi?chn=1&u=admin&p=rufnmnzq",
-    "https://corp2.rennacs.com:10006/cgi-bin/sp.cgi?chn=2&u=admin&p=rufnmnzq",
-    "https://corp2.rennacs.com:10006/cgi-bin/sp.cgi?chn=3&u=admin&p=rufnmnzq",
-    "https://corp2.rennacs.com:10007/cgi-bin/sp.cgi?chn=0&u=admin&p=rufnmnzq",
-    "https://corp2.rennacs.com:10007/cgi-bin/sp.cgi?chn=1&u=admin&p=rufnmnzq",
-    "https://corp2.rennacs.com:10007/cgi-bin/sp.cgi?chn=2&u=admin&p=rufnmnzq",
-    "https://corp2.rennacs.com:10007/cgi-bin/sp.cgi?chn=3&u=admin&p=rufnmnzq"
+    "http://corp2.rennacs.com:10005/cgi-bin/sp.cgi?chn=0&u=admin&p=rufnmnzq",
+    "http://corp2.rennacs.com:10005/cgi-bin/sp.cgi?chn=1&u=admin&p=rufnmnzq",
+    "http://corp2.rennacs.com:10005/cgi-bin/sp.cgi?chn=2&u=admin&p=rufnmnzq",
+    "http://corp2.rennacs.com:10005/cgi-bin/sp.cgi?chn=3&u=admin&p=rufnmnzq",
+    "http://corp2.rennacs.com:10006/cgi-bin/sp.cgi?chn=0&u=admin&p=rufnmnzq",
+    "http://corp2.rennacs.com:10006/cgi-bin/sp.cgi?chn=1&u=admin&p=rufnmnzq",
+    "http://corp2.rennacs.com:10006/cgi-bin/sp.cgi?chn=2&u=admin&p=rufnmnzq",
+    "http://corp2.rennacs.com:10006/cgi-bin/sp.cgi?chn=3&u=admin&p=rufnmnzq",
+    "http://corp2.rennacs.com:10007/cgi-bin/sp.cgi?chn=0&u=admin&p=rufnmnzq",
+    "http://corp2.rennacs.com:10007/cgi-bin/sp.cgi?chn=1&u=admin&p=rufnmnzq",
+    "http://corp2.rennacs.com:10007/cgi-bin/sp.cgi?chn=2&u=admin&p=rufnmnzq",
+    "http://corp2.rennacs.com:10007/cgi-bin/sp.cgi?chn=3&u=admin&p=rufnmnzq"
 ];
 
 let cameraSel = document.getElementById("cameraSel");
