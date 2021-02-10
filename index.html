@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cameras</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="iframeDiv">
+            <iframe id="iframe"></iframe>
+        </div>
+        <div class="container"> 
+            <select id="cameraSel">
+                <option value="5">Reception</option>
+                <option value="0">Forecourt - Toward Caryard</option>
+                <option value="1">Rear Caryard - Toward Shed</option>
+                <option value="2">Forecourt - Toward Oxford St</option>
+                <option value="3">Rear Entrance</option>
+                <option value="4">Inside Work Shop</option>
+                <option value="6">Inside Work Shop</option>
+                <option value="7">Rennacs Room</option>
+                <option value="8">Rear Caryard - Toward Workshop, Middle of shed</option>
+                <option value="9">Rear Caryard - Toward Workshop, Corner of shed</option>
+                <option value="10">Shed Rear</option>
+                <option value="11">Shed Front</option>
+            </select>
+            <button id="refresh" onclick="refresh()">REFRESH (Space)</button>
+            <button class="reset" onclick="reset()" id="reset">RESET (R)</button>
+            <span>SIZE: <input type="range" min="1" max="5" width="150px" value="1" step="0.1" class="slider" id="myRange"> </span>
+        </div>
+    </body>
+    <div id="moveMenu">
+        <button class="moveButton" onclick="up()" id="up"></button>
+        <button class="moveButton" onclick="down()" id="down"></button>
+        <button class="moveButton" onclick="left()" id="left"></button>
+        <button class="moveButton" onclick="right()" id="right"></button>
+    </div>
+    <script src="script.js"></script>
+</html>
+
